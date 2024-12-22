@@ -16,10 +16,11 @@ export default function Footer() {
                     </div>
                     <div>
                         <nav className="flex gap-6">
-                            {footerLinks.map((link:any) => (
+                            {footerLinks.map(link => (
                                 <a
+                                    key={link.href}
                                     href={link.href}
-                                    key={link}
+                                    
                                     className="text-white/50 text-sm"
                                 >
                                     {link.label}

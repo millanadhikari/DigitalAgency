@@ -68,7 +68,7 @@ export default function Features() {
                                         alt="Avatar 4"
                                         className="absolute size-full rounded-full opacity-0 group-hover:opacity-100 transition"
                                     />
-                                    {Array.from({ length: 3 }).map((i:any) => (
+                                    {Array.from({ length: 3 }).map((_, i):any => (
                                         <span key={i} className="size-1.5 rounded-full bg-white inline-flex"></span>
                                     ))}
                                 </div>
